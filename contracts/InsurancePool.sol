@@ -12,7 +12,6 @@ contract InsurancePool is Initializable {
   uint public depositCount;
   uint public purchaseCount;
   uint public insurersCount;
-
   uint public comsRate = 1;
   uint public initialReserve = 10000;
 

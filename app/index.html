@@ -1,0 +1,126 @@
+<html>
+
+<head>
+  <title> Descentralized Insurance Protocol </title>
+</head>
+
+<body>
+
+<div class="dashboard__main">
+  <h1> Dashboard </h1>
+  <div class="flex-between">
+    <div class="dashboard__block">
+      <div class="dashboard__title" style="color: #C64A85"> Active policies </div>
+      <div class="flex-align">
+        <img class="insured__imgproduit" src="https://i.goopics.net/q7mDk.png" />
+        <div class="dashboard__value"> 0 ETH </div>
+      </div>
+      <div class="flex-align">
+        <img class="insured__imgproduit" src ="https://i.goopics.net/eoxn5.png" />
+        <div class="dashboard__value"> 0 ETH </div>
+      </div>
+    </div>
+    <div class="dashboard__block">
+      <div class="dashboard__title" style="color: #C7AB76"> Supplied Capital </div>
+      <div class="dashboard__value" id="supplied_capital"> 0 ETH </div>
+      <div class="dashboard__value"> 0% APY </div>
+      <label>
+        Withdraw Amount (in ETH)
+        <input type="text" id="withdrawAmount" />
+      </label>
+      <div class="dashboard__button" id="withdrawButton"> Withdraw capital </div>
+    </div>
+    <div class="dashboard__block">
+      <div class="dashboard__title" style="color: #4AC6B5"> Protocol Health factor </div>
+      <div class="dashboard__value"> 0 </div>
+    </div>
+  </div>
+</div>
+
+<div class="flex">
+  <!-- INSURED -->
+  <div class="main">
+    <h1> Be insured </h1>
+    <div class="flex-align">
+    <!-- Compound -->
+    <div class="insured__main">
+      <div class="flex-align">
+        <img class="insured__imgproduit" src="https://i.goopics.net/q7mDk.png" />
+        <div class="insured__label"> Compound </div>
+      </div>
+      <div class="flex-align-padding">
+        <img class="insured__imgtype" src="https://img.icons8.com/color/50/000000/security-checked--v1.png" />
+        <div class="insured__sublabel"> Smart contract integrity </div>
+      </div>
+      <label>
+        Cover Amount (in ETH)
+        <input type="text" id="purchase-amount" />
+      </label>
+      <div class="insured__datablock">
+      <div class="flex-between">
+        <div class="insured__datatitle"> Premium price </div>
+        <div class="insured__datatitle"> Rollover date </div>
+      </div>
+      <div class="flex-between">
+        <div class="insured__data"> 0.012% </div>
+        <div class="insured__data"> 01/10/2021 </div>
+      </div>
+      </div>
+      <div class="insured__button" id="purchase"> Get insured </div>
+    </div>
+    <!-- AAVE -->
+    <div class="insured__main">
+      <div class="flex-align">
+        <img class="insured__imgproduit" src ="https://i.goopics.net/eoxn5.png" />
+        <div class="insured__label"> AAVE </div>
+      </div>
+      <div class="flex-align-padding">
+        <img class="insured__imgtype" src="https://img.icons8.com/color/50/000000/security-checked--v1.png" />
+        <div class="insured__sublabel"> Smart contract integrity </div>
+      </div>
+      <label>
+        Cover Amount (in ETH)
+        <input type="text" id="purchase-amount" />
+      </label>
+      <div class="insured__datablock">
+        <div class="flex-between">
+          <div class="insured__datatitle"> Premium price </div>
+          <div class="insured__datatitle"> Rollover date </div>
+        </div>
+        <div class="flex-between">
+          <div class="insured__data"> 0.010% </div>
+          <div class="insured__data"> 01/10/2021 </div>
+        </div>
+      </div>
+      <div class="insured__button" id="purchaseButton"> Get insured </div>
+    </div>
+  </div>
+  </div>
+  <!-- INSURER -->
+  <div class="main">
+    <h1> Become an insurer </h1>
+    <div class="insurer__main">
+      <div class="flex-between">
+        <div class="insurer__datatitle"> Total supplied capital </div>
+        <div class="insurer__datatitle"> Active claims </div>
+        <div class="insurer__datatitle"> Annual percentage yield </div>
+      </div>
+      <div class="flex-between">
+        <div class="insurer__data"> 100 ETH</div>
+        <div class="insurer__data"> 0 </div>
+        <div class="insurer__data"> 2% </div>
+      </div>
+      <label>
+        Deposit Amount (in ETH)
+        <input type="text" id="depositAmount" />
+      </label>
+      <div class="insured__button" id="depositButton"> Deposit capital </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</div>
+
+</body>
+
+</html>

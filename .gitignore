@@ -1,0 +1,12 @@
+node_modules
+.env
+.cache
+images
+.openzeppelin
+
+#Hardhat files
+cache
+artifacts
+app/artifacts
+dist
+images

@@ -8,7 +8,6 @@ app.use(cors());
 app.use(express.json());
 
 // Persistence
-let balance = 0;
 
 app.post('/send/:value', (req, response) => {
     const value = req.params;

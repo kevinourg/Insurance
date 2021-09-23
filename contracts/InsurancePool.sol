@@ -13,7 +13,7 @@ contract InsurancePool is Initializable {
   uint public purchaseCount;
   uint public insurersCount;
   uint public comsRate = 1;
-  uint public initialReserve = 10000;
+  uint public initialReserve = 100000;
 
   address[] public addrInsurers;
   address[] public addrInsured;

@@ -25,6 +25,12 @@ Once you've done that, installing metamask will allow you to deploy the protocol
 
 To deploy the contract, `npx hardhat run scripts/deploy.js --network CHOOSE_NETWORK`
 
+## Run Front-end
+
+To run front-end, `parcel app/index.html`
+
+## Shell commands
+
 ```shell
 npx hardhat accounts
 npx hardhat compile

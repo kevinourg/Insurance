@@ -1,9 +1,6 @@
 ### X-PROTOCOL-I
 
-The  project is in development, a V0 will be available is a few days :
-Front-end: 90%.
-Back-end JS: 50%.
-Back-end Solidity: 80%.
+The project is in development.
 
 ## React App
 You'll need Node/NPM for running installing dependencies and running your app
